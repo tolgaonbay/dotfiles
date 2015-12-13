@@ -15,6 +15,9 @@ HISTFILE=~/.history
 setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
 
+# set key timeout to 10ms for escape key fix
+KEYTIMEOUT=1
+
 # prompt
 PROMPT='%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m %{%F{yellow}%}%~ %{%F{green}%}% %{%f%}%% '
 
