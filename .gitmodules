@@ -1,0 +1,20 @@
+[submodule "ctrlp.vim"]
+    path = vim/bundle/ctrlp.vim
+    url = https://github.com/kien/ctrlp.vim.git
+
+[submodule "delimitMate"]
+    path = vim/bundle/delimitMate
+    url = https://github.com/Raimondi/delimitMate.git
+
+[submodule "emmet-vim"]
+    path = vim/bundle/emmet-vim
+    url = https://github.com/mattn/emmet-vim.git
+
+[submodule "nerdtree"]
+    path = vim/bundle/nerdtree
+    url = https://github.com/scrooloose/nerdtree.git
+
+[submodule "vim-airline"]
+    path = vim/bundle/vim-airline
+    url = https://github.com/vim-airline/vim-airline
+
