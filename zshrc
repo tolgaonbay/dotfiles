@@ -2,6 +2,7 @@
 # export CLICOLOR=1
 # export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+alias g='git'
 
 # set vi mode on
 bindkey -v
@@ -24,3 +25,6 @@ PROMPT='%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m %{%F{yellow}%}%~ %{%F{green}%}% %{%f%
 # start command auto completion
 autoload -Uz compinit
 compinit
+
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
