@@ -1,0 +1,13 @@
+[user]
+	name = tolgaonbay
+	email = tolgaonbay@yahoo.com
+[push]
+	default = simple
+[core]
+	editor = /usr/local/bin/vim
+[alias]
+	s = status
+	d = diff
+	ds = diff --staged
+	co = checkout
+	ci = commit
