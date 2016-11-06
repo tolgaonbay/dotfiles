@@ -74,6 +74,18 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_working_path_mode='a'
 
 " CtrlP ignore git, svn folders
-let g:ctrlp_custom_ignore = '\v[\/](\.(git|svn)|target)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|svn)|target|node_modules)$'
 
+" vim-jsx plugin
+" enable jsx syntax on .js files
+let g:jsx_ext_required = 0
+
+" auto start NERDTree when vim is started without arguments
+function! StartUp()
+    if 0 == argc()
+        NERDTree
+    end
+endfunction
+
+autocmd VimEnter * call StartUp()
 
