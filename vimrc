@@ -7,6 +7,7 @@ syntax enable
 
 " set theme to solarized
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 
 " set line numbers on

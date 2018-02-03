@@ -11,3 +11,4 @@
 	ds = diff --staged
 	co = checkout
 	ci = commit
+	l = log --graph --oneline --all
